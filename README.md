@@ -1,5 +1,5 @@
 # nodejs-mongo-login-register
-###Login and Register with NodeJS and MongoDB
+**Login and Register with NodeJS and MongoDB**
 
 **Basic login and register form with authentication**
 
