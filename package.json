@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-mongo-login-register",
+  "version": "1.0.0",
+  "description": "Simpe Login and Register App with Authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalkulus1/nodejs-mongo-login-register.git"
+  },
+  "keywords": [
+    "Login",
+    "Register",
+    "NodeJS",
+    "MongoDB",
+    "Authentication",
+    "Passport"
+  ],
+  "author": "Kalkulus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kalkulus1/nodejs-mongo-login-register/issues"
+  },
+  "homepage": "https://github.com/Kalkulus1/nodejs-mongo-login-register#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.15",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

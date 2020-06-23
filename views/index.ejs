@@ -1,0 +1,24 @@
+<% include _header %>
+
+<h1 style="text-align: center;">Welcome to Kalkulus's Dashboard</h1>
+
+<% users.forEach(function(user) { %>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a href="/users/<%= user.username %>">
+                <%= user.name() %>
+            </a>
+        </div>
+        <% if (user.bio) { %>
+            <div class="panel-body"><%= user.bio %></div>
+        <% } %>
+    </div>
+
+<% }) %>
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4saRlOfBLOw?start=3105" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<% include _footer %>
